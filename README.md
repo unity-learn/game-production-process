@@ -33,9 +33,9 @@ GD[GameDesign]
 ART[Artist]
 DEV[Developer]
 PROTOTYPE[Prototype]
-Merge["Merge (asset + logic) => temp prototype"]
-GD--"Pre-order asset prototype"--->ART-->Merge
-GD--"Pre-order logic gameplay prototype"--->DEV-->Merge
+Merge[Temp Prototype]
+GD--"Pre-order asset prototype"--->ART--asset prototype-->DEV
+GD--"Pre-order logic gameplay prototype"--->DEV-->Merge--"Fix"-->DEV
 Merge--Review-->GD--Feedback-->Merge--Final-->PROTOTYPE
 end
 ```
