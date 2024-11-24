@@ -13,8 +13,14 @@ A--> B -->C -->D
 end
 ```
 
+
+Để làm ra một sản phẩm game thì cần một nhóm nhân sự cơ bản bao gồm:
+  -  GameDesign (GD): Nhiệm vụ lên ý tưởng cho game (thường sẽ là leader của dự án game, chịu trách nhiệm chính cho dự án)
+  -  Developer (Dev): Nhiệm vụ code game
+  -  Artist (Art): Nhiệm vụ vẽ asset cho game
+
 ## 1. Ideate (Ý tưởng)
-  Đây là phần chủ yếu thuộc về game designer (GD).
+  Đây là phần chủ yếu thuộc về game designer (GD)
 - Lên ý tưởng core gameplay trên game design document (GDD).
 - Nghiên cứu thị trường xem idea đó có phù hợp để phát triển không (game phù hợp ở thị trường nào, độ tuổi bao nhiêu, doanh thu đến từ đâu,..).
 
