@@ -32,5 +32,9 @@ Kết hợp với GD để bổ sung
 - Asset InGame
 - UI
 ### Developer (dev)
-- Phát triển hoàn thiện game full asset, feeling để sẵn sàng lên chợ
+- Phát triển hoàn thiện game full asset, feeling để sẵn sàng lên chợ.
+- Tracking, gán ads, iap.
+
+## 4. Public
+- Set up store (android/iOS)
 
