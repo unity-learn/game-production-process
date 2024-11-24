@@ -27,8 +27,7 @@ end
 ## 2. Prototype
 
 ```mermaid
-flowchart LR
-subgraph S[Prototype]
+flowchart
 GD[GameDesign]
 ART[Artist]
 DEV[Developer]
@@ -37,7 +36,6 @@ Merge[Temp Prototype]
 GD--"Pre-order asset prototype"--->ART--asset prototype-->DEV
 GD--"Pre-order logic gameplay prototype"--->DEV-->Merge--"Fix"-->DEV
 Merge--Review-->GD--Feedback-->Merge--Final-->PROTOTYPE
-end
 ```
 
 ### GameDesign
@@ -51,10 +49,25 @@ end
 Sau khi bản prototype đầu tiên được hoàn thành, GD và các thành viên trong team sẽ review lại và cho nhận xét sau đó đưa ra phương pháp cải thiện (nếu có) cho đến khi bản prototype được hoàn thiện nhất.
   
 ## 3. Full Game
+
+```mermaid
+flowchart
+GD[GameDesign]
+ART[Artist]
+DEV[Developer]
+Game[Complete Game Product]--release-->Store
+TempGame[Temp Game Product]
+GD --"order full asset ingame and ui"--> ART--"full asset"-->DEV
+GD --"complete full game logic and ui"--> DEV-->TempGame--Final-->Game
+TempGame--"Fix bug"-->DEV
+TempGame--"Check bug"-->Tester--Feedback-->GD--Feedback-->TempGame
+```
+
 ### GameDesign
 - Bổ sung mechanic, sound fx, vfx vào GDD cho game có đầy đủ các tính năng kèm theo các hiệu ứng sinh động.
 - Hoàn thiệt phần thiết kế UI (giao diện người dùng), sau đó order phía Artist vẽ asset cho UI.
 - Cải thiện feeling game (Cải thiệt về điểm chạm, hiệu ứng âm thanh, hiệu ứng rung, hiệu ứng hình ảnh sao cho đúng và chuẩn vị trí xuất hiện, thời điểm xuất hiện... nhằm mục đích để người chơi cảm nhận được sự thích thú khi chơi game)
+- Ra task công việc cho Dev (code hoàn thiện tất cả tính năng và giao diện cho game).
 ### Artist
 - Hoàn thiệt các order từ phía GD như asset ingame, ui...
 ### Developer (Dev)
@@ -67,7 +80,7 @@ Cuối cùng thì sẽ thu được sản phẩm game đầy đủ các tính n�
 Sau khi lên chợ bản đầu tiên thì quá trình bảo trì game, nâng cấp các tính năng vẫn được tiếp tục duy trì nếu sản phẩm game đó có kết quả kinh doanh tốt. Quá trình bảo trì và nâng cấp vẫn sẽ cần tất cả các thành viên triển khai để tạo ra sản phẩm update, test và sửa cho đến khi sản phẩm ổn định nhất mới update sản phẩm lên chợ để thay thế cho sản phẩm trước đó.
 
 ### Lưu ý
-- Để sản xuất ra game thì vẫn còn một số bộ phận nhân sự khác nữa như Animator (người làm hiệu ứng chuyển động cho nhân vật trong game), Vfx Artist (người làm hiệu ứng hình ảnh, ánh sáng... ), người làm âm thanh cho game (mình không biết gọi là gì), ...
+- Để sản xuất ra game thì vẫn còn một số bộ phận nhân sự khác nữa như Animator (người làm hiệu ứng chuyển động cho nhân vật trong game), Vfx Artist (người làm hiệu ứng hình ảnh, ánh sáng... ), người làm âm thanh cho game (mình không biết gọi là gì), Tester (người kiểm tra chất lượng cuối cùng của game, tìm lỗi cho game...)
 - Làm game mobile với mục đích kinh doanh thì trước khi lên chợ Dev sẽ gắn quảng cáo vào game theo yêu cầu chi tiết của GD, IAP (tính năng mua hàng trong ứng dụng), Tracking (gắn các công cụ theo dõi chỉ số trong game),...
 
 ## 4. Public
