@@ -6,7 +6,7 @@ flowchart
 subgraph S[Process]
 A[Ideate]
 B[Prototype]
-C[FullGame]
+C[Full Game]
 D[Public]
 
 A--> B -->C -->D
