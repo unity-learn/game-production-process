@@ -1,4 +1,4 @@
-# Mobile Game Production Process
+# Mobile Game Production Process (Quy trình sản xuất trò chơi trên thiết bị di động)
 
 ``` mermaid
 flowchart
@@ -24,7 +24,7 @@ end
 - Lên ý tưởng core gameplay trên game design document (GDD).
 - Nghiên cứu thị trường xem idea đó có phù hợp để phát triển không (game phù hợp ở thị trường nào, độ tuổi bao nhiêu, doanh thu đến từ đâu,..).
 
-## 2. Prototype
+## 2. Prototype (Sản phẩm mẫu - thường chỉ có phần gameplay)
 
 ```mermaid
 flowchart
@@ -48,7 +48,7 @@ Merge--Review-->GD--Feedback-->Merge--Final-->PROTOTYPE
 
 Sau khi bản prototype đầu tiên được hoàn thành, GD và các thành viên trong team sẽ review lại và cho nhận xét sau đó đưa ra phương pháp cải thiện (nếu có) cho đến khi bản prototype được hoàn thiện nhất.
   
-## 3. Full Game
+## 3. Full Game (Sản phẩm game hoàn chỉnh đầy đủ tính năng)
 
 ```mermaid
 flowchart
@@ -83,6 +83,6 @@ Sau khi lên chợ bản đầu tiên thì quá trình bảo trì game, nâng c�
 - Để sản xuất ra game thì vẫn còn một số bộ phận nhân sự khác nữa như Animator (người làm hiệu ứng chuyển động cho nhân vật trong game), Vfx Artist (người làm hiệu ứng hình ảnh, ánh sáng... ), người làm âm thanh cho game (mình không biết gọi là gì), Tester (người kiểm tra chất lượng cuối cùng của game, tìm lỗi cho game...)
 - Làm game mobile với mục đích kinh doanh thì trước khi lên chợ Dev sẽ gắn quảng cáo vào game theo yêu cầu chi tiết của GD, IAP (tính năng mua hàng trong ứng dụng), Tracking (gắn các công cụ theo dõi chỉ số trong game),...
 
-## 4. Public
-- Phát hành game lên GooglePlayStore / AppStore
+## 4. Public (Đưa game lên store)
+- Phát hành game lên `Google Play Store` / `AppStore`
 - Lúc này team Marketing sẽ sử dụng chuyên môn thần thành (mình không hiểu rõ về chuyên môn này =)) ) của họ để đưa sản phẩm game đến tay user.
