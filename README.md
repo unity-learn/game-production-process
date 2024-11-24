@@ -36,5 +36,4 @@ Kết hợp với GD để bổ sung
 - Tracking, gán ads, iap.
 
 ## 4. Public
-- Set up store (android/iOS)
-
+- Phát hành game lên GooglePlayStore/ AppStore
