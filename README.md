@@ -71,4 +71,5 @@ Sau khi lên chợ bản đầu tiên thì quá trình bảo trì game, nâng c�
 - Làm game mobile với mục đích kinh doanh thì trước khi lên chợ Dev sẽ gắn quảng cáo vào game theo yêu cầu chi tiết của GD, IAP (tính năng mua hàng trong ứng dụng), Tracking (gắn các công cụ theo dõi chỉ số trong game),...
 
 ## 4. Public
-- Phát hành game lên GooglePlayStore/ AppStore
+- Phát hành game lên GooglePlayStore / AppStore
+- Lúc này team Marketing sẽ sử dụng chuyên môn thần thành (mình không hiểu rõ về chuyên môn này =)) ) của họ để đưa sản phẩm game đến tay user.
