@@ -70,7 +70,7 @@ TempGame--"Check bug"-->Tester--Feedback-->GD--Feedback-->TempGame
 - Ra task công việc cho Dev (code hoàn thiện tất cả tính năng và giao diện cho game).
 ### Artist
 - Hoàn thiệt các order từ phía GD như asset ingame, ui...
-### Developer (Dev)
+### Developer
 - Code hoàn thiện tất cả các tính năng trong game và ghép đầy đủ các asset nhận từ phía Artist theo yêu cầu từ phía GD (thường sẽ được ghi đầy đủ trong GDD)
 
 Sau khi Dev hoàn thiện game, sản phẩm lúc này sẽ được gửi đến team Tester. Các bạn Tester sẽ chơi game và đối chiếu với GDD (hoặc trao đổi trực tiếp với GD) để tìm ra những lỗi logic, lỗi ui hoặc tính năng còn thiếu sót, hành động này anh em hay gọi vui là "bới lông tìm vết" hoặc "đào bug" =)). Các lỗi sẽ được liệt kê lại gọi là `Bug List`.
