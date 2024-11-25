@@ -7,7 +7,7 @@ subgraph S[Process]
 A[Ideate]
 B[Prototype]
 C[Full Game]
-D[Public]
+D[Publish]
 
 A--> B -->C -->D
 end
@@ -83,6 +83,6 @@ Sau khi lên chợ bản đầu tiên thì quá trình bảo trì game, nâng c�
 - Để sản xuất ra game thì vẫn còn một số bộ phận nhân sự khác nữa như Animator (người làm hiệu ứng chuyển động cho nhân vật trong game), Vfx Artist (người làm hiệu ứng hình ảnh, ánh sáng... ), người làm âm thanh cho game (mình không biết gọi là gì), Tester (người kiểm tra chất lượng cuối cùng của game, tìm lỗi cho game...)
 - Làm game mobile với mục đích kinh doanh thì trước khi lên chợ Dev sẽ gắn quảng cáo vào game theo yêu cầu chi tiết của GD, IAP (tính năng mua hàng trong ứng dụng), Tracking (gắn các công cụ theo dõi chỉ số trong game),...
 
-## 4. Public (Đưa game lên store)
+## 4. Publish (Đưa game lên store)
 - Phát hành game lên `Google Play Store` / `AppStore`
 - Lúc này team Marketing sẽ sử dụng chuyên môn thần thành (mình không hiểu rõ về chuyên môn này =)) ) của họ để đưa sản phẩm game đến tay user.
